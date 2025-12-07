@@ -1,4 +1,5 @@
 using HexagonalSample.Application.DtoClasses.Books;
+using HexagonalSample.Application.DtoClasses.Books.HexagonalSample.Application.DtoClasses.Books;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -44,8 +45,7 @@ namespace HexagonalSample.WebApi.Controllers
                 Title = request.Title,
                 Description = request.Description,
                 PublishedOn = request.PublishedOn,
-                AuthorId = request.AuthorId,
-                CategoryId = request.CategoryId
+
             };
 
             await _mediator.Send(command);
@@ -61,8 +61,7 @@ namespace HexagonalSample.WebApi.Controllers
                 Title = request.Title,
                 Description = request.Description,
                 PublishedOn = request.PublishedOn,
-                AuthorId = request.AuthorId,
-                CategoryId = request.CategoryId
+
             };
 
             await _mediator.Send(command);
