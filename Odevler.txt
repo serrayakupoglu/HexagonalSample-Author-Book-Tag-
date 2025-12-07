@@ -1,0 +1,7 @@
+﻿1 => Author-Book-Category-Tag semasını Hexagonal mimari ile tüm entityler icin Crud olacak şekilde tasarlayınız
+
+2 => UseCase Resolving ve DbContext Resolving'i ilgili katmanlara cekerek Single Responsibility'e uygun olmasını saglayınız
+
+3 => Use Case'leri CQRS tarzı ve mediator paterniyle uygulayınız...
+
+4 => Normalde Onion'da yaptıgımız şemayı da bir de Hexagonal icin yapınız...
